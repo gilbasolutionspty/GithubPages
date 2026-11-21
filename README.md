@@ -24,6 +24,5 @@ Put images in `assets/img/` and give each one width, height and descriptive alt 
 Every page already uses `assets/img/og-card.png` (1200 x 630, text only) as its social share image. Replace it with a photo-based card once photos arrive, keeping the same file name.
 
 ## Still to confirm
-- Public email address (hidden on gilbasolutions.com, so not on this site yet)
 - Opening hours (Monday to Friday, 8am to 5pm, taken from the agronomy services page)
 - A YouTube video to embed, if Gilba has one it wants featured
