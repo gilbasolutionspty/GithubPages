@@ -12,14 +12,15 @@ If the Pages project gets a different name, change the address in the canonical 
 - `case-studies/twin-creeks-blue-green-algae-agri-tec/`
 - `404.html`, `robots.txt`, `sitemap.xml`, `_headers`
 
-## Photos to add later
-The design works without photos. When Gilba's images arrive, good spots are:
-- Pigment section: Vertmax on a fairway or green
-- Grow lights section: SeeGrow rig on a stadium pitch
-- Sensors section: an Omne Turf box in the ground
-- Case studies: before and after dam photos (Federal GC, Twin Creeks)
+## Images (from SEOBranding\public\images\Gilba, 21 Nov 2026)
+- `gilba-solutions-logo-white.png` / `.webp`: header logo (white lettering for the dark header)
+- `vertmax-duo-logo`, `stadium-pitch-turf`: pigment section
+- `seegrow-logo`, `tls-led-400-grow-light-rig`: grow lights section
+- `omne-turf-logo`: sensors section
+- `product-*`: "More from the Gilba range" strip (names only, no claims)
+- `golf-course-green`, `golf-course-fairway`: case studies, captioned as illustrative
 
-Put images in `assets/img/` and give each one width, height and descriptive alt text.
+Still worth adding later: real before/after dam photos from Federal GC and Twin Creeks, and an Omne Turf box installed on a site.
 
 Every page already uses `assets/img/og-card.png` (1200 x 630, text only) as its social share image. Replace it with a photo-based card once photos arrive, keeping the same file name.
 

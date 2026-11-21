@@ -33,7 +33,18 @@ a { color: var(--lime-dark); text-underline-offset: 3px; }
 .bar-row { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 68px; flex-wrap: wrap; }
 .brand { color: var(--white); text-decoration: none; font-weight: 700; font-size: 1.15rem; display: flex; align-items: center; gap: 10px; }
 .brand em { font-style: normal; font-weight: 400; color: var(--lime); font-size: 0.95rem; }
-.brand-dot { width: 14px; height: 14px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 5px rgba(181, 221, 76, 0.18); }
+.brand-logo { height: 40px; width: auto; }
+.brand-mark { height: 64px; width: auto; border-radius: 8px; margin-bottom: 6px; }
+.wide-mark { height: 44px; background: var(--white); padding: 4px 8px; }
+.shot { margin: 22px 0 0; }
+.shot img { width: 100%; height: auto; border-radius: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; margin-top: 26px; }
+.tile { margin: 0; text-align: center; }
+.tile img { width: 100%; height: auto; border-radius: 10px; }
+.tile figcaption { margin-top: 8px; font-weight: 700; font-size: 0.92rem; color: var(--ink); }
+.case-shot { margin: 26px 0 0; }
+.case-shot img { width: 100%; max-width: 420px; height: auto; border-radius: 14px; }
+.case-shot figcaption { font-size: 0.86rem; color: var(--muted); margin-top: 6px; }
 .menu { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 0.93rem; font-weight: 500; }
 .menu a { color: #D9E2EA; text-decoration: none; }
 .menu a:hover { color: var(--lime); }
@@ -112,6 +123,7 @@ a { color: var(--lime-dark); text-underline-offset: 3px; }
 
 @media (max-width: 880px) {
   .intro-grid, .split, .base-grid, .cases, .trio, .snapshot { grid-template-columns: minmax(0, 1fr); }
+  .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .product { padding: 62px 0; }
   .menu { gap: 2px 14px; font-size: 0.88rem; }
   .bar { position: static; }
